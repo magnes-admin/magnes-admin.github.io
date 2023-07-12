@@ -33,8 +33,16 @@ h1,
   background-image: url(../image.png);
   background-position: 100% 100%;
   background-size: cover;
-
 }
+
+@media screen and (max-width: 576px) {
+  .container .row {
+    background-image: url(../image.png);
+    background-position: 0%;
+    background-size: cover;
+  }
+}
+
 
 .container .row .left-wrap .left {
   background: #202A44;
